@@ -1,0 +1,10 @@
+app:
+  port: 8080
+  env: development
+
+db:
+  dsn: postgres://postgres:postgres@localhost:5432/ecommerce?sslmode=disable
+
+jwt:
+  secret: change-me-in-production
+  expires_in: 24h

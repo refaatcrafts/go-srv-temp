@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "lsp": {
+    "go": {
+      "command": ["gopls"],
+      "extensions": ["go"],
+      "initialization": {
+        "build.directoryFilters": ["-node_modules"]
+      }
+    }
+  }
+}
